@@ -1,10 +1,9 @@
 import React from 'react';
 import './App.css';
-import HomePageComp from './homePageComp';
-import './homepage.styles.scss'
+import HomePageComp from './pages/homePgaeComp/homePageComp';
 function App() {
   return (
-    <div className="App">
+    <div className="body">
       <HomePageComp/>
     </div>
   );
